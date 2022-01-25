@@ -1,8 +1,9 @@
 ## Webt 1340 Project Page
 
-<h1>Project List</h1>
+<h2>Project List</h2>
 
 <ul>
-    <li><a href="/daroncrittenden_project_1_webt1340.pdf" target="_blank">Project 1</a></li>
-    <li><a href="/daroncrittenden_portfoliobuilderproject.pdf" target="_blank">Project 1</a></li>
+    <li><a href="project1/campingicons.ai">Project 1 - Chapter Work</a></li>
+    <li><a href="project1/portfoliobuilder.ai">Portfolio Builder</a></li>
+    <li><a href="project1/holidayevents.ai">Portfolio Builder</a></li>
 </ul>
