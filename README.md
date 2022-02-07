@@ -13,3 +13,9 @@
     <li><a href="project3/stationery.ai">Project 3 - Chapter Work</a></li>
     <li><a href="project3/portfoliobuilder.ai">Project 3 - Portfolio Builder</a></li>
 </ul>
+
+<h2>Project 5</h2>
+<ul>
+    <li><a href="project5/aos-brochure.ai">Project 5 - Chapter Work</a></li>
+    <li><a href="project5/thepaintedturtle.ai">Project 5 - Portfolio Builder</a></li>
+</ul>
