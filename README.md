@@ -19,3 +19,14 @@
     <li><a href="project5/aos-brochure.ai">Project 5 - Chapter Work</a></li>
     <li><a href="project5/thepaintedturtle.ai">Project 5 - Portfolio Builder</a></li>
 </ul>
+
+<h2>Project 7</h2>
+<ul>
+    <li><a href="project7/price-graph.ai">Project 7 - Chapter Work</a></li>
+    <li><a href="project7/reasons-graph.ai">Project 7 - Chapter Work</a></li>
+    <li><a href="project7/favorites-graph.ai">Project 7 - Chapter Work</a></li>
+    <li><a href="project7/coffe-producer.ai">Project 7 - Chapter Work</a></li>
+    <li><a href="project7/renewableenergy.ai">Project 7 - Portfolio Builder</a></li>
+    <li><a href="project7/fuelused.ai">Project 7 - Portfolio Builder</a></li>
+    <li><a href="project7/budget.ai">Project 7 - Portfolio Builder</a></li>
+</ul>
