@@ -29,4 +29,5 @@
     <li><a href="project7/renewableenergy.ai">Project 7 - Portfolio Builder</a></li>
     <li><a href="project7/fuelused.ai">Project 7 - Portfolio Builder</a></li>
     <li><a href="project7/budget.ai">Project 7 - Portfolio Builder</a></li>
+    <li><a href="project7/living-green.ai">Project 7 - Portfolio Builder</a></li>
 </ul>
