@@ -31,3 +31,10 @@
     <li><a href="project7/budget.ai">Project 7 - Portfolio Builder</a></li>
     <li><a href="project7/living-green.ai">Project 7 - Portfolio Builder</a></li>
 </ul>
+
+<h2>Project 8</h2>
+<ul>
+    <li><a href="project8/site-design.ai">Project 8 - Chapter Work</a></li>
+    <li><a href="project8/favoriteproject.ai">Project 8 - Portfolio Builder</a></li>
+    <li><a href="project8/portfoliobuilder.ai">Project 8 - Portfolio Builder</a></li>
+</ul>
