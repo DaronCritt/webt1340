@@ -1,0 +1,270 @@
+/* Global Styles */
+body {
+    background-color: #c7c7c732;
+    font-family: 'Smooch', cursive;
+    height: 100%;
+    background-image: url('../images/backg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Style */
+
+#container {
+    background-color: #0057fa00;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/bulb.png');
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    opacity: 75%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header h1 {
+    color: #dffc08dc;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #0349a4;
+    color: #5aecff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: #ececec;
+}
+
+nav li a:hover {
+    background-color: #ececec;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #161511;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #c7c7c7;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+p {
+    color: bisque;
+    font-size: 2em;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f10909;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 00.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+footer {
+    text-align: center;
+    color: #7496a1;
+}
+
+.single_col {
+    width: 83%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid #f30707;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+dl, dt, dd {
+    color: #c7c7c7;
+    font-size: 20px;
+}
+
+
+
+
+
+/* Tablet Styles */
+
+@media(min-width: 768px) {
+    header {
+        padding: 125px;
+    }
+
+    header h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 60%;
+        border-radius: 10px;
+        border: 4px solid #afafaf;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+}
+
+
+
+/* Desktop Styles */
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 6px solid #443f31;
+        border-radius: 20px;
+            
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    nav li a {
+        margin: 0 20px;
+    }
+    
+    #lower_flex {
+        display: flex;
+    }
+    
+    .col {
+        width: 100%;
+    }
+    
+    .col img {
+        width: 100%;
+    }
+    
+    .single_col {
+        width: 100% ;
+    }
+    
+    table, tr, td {
+        border: 4px solid #443f31;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    table img {
+        width: 100%;
+    }
+    
+    .gallery {
+        display: none;
+    }
+    
+    table {
+        display: block;
+    }
+}
